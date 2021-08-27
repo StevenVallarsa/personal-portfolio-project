@@ -1,5 +1,5 @@
 body {
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
 }
 
 .jumbotron {
@@ -11,14 +11,152 @@ body {
 
 .navbar {
   background-image: linear-gradient(to right, #020, #000);
-    color: white;
+}
+
+.nav-item {
+  padding-right: 20px;
+}
+
+.c-pet-green {
+  color: #0f0;
+}
+
+.head {
+    font-family: 'Press Start 2P', monospace;
+
+}
+
+.reg-text {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+
 }
 
 @media (max-width: 600px) {
   header h5 {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
   header h3 {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
+
+  .nav-link, .nav-item {
+    font-size: 0.75rem;
+  }
+
+}
+
+.active {
+  color: white;
+}
+
+
+/*--- PERSONAL STYLES ---*/
+
+
+a:hover {
+  color: #0a0;
+}
+
+li.active {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-image: linear-gradient(to right, #020, #000);
+  color: #0f0;
+  font-family: 'Press Start 2P', monospace;
+  margin: 0
+}
+
+.navbar-custom .navbar-text {
+  color: #0f0;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #020, #000);
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.padding-bottom {
+  padding-bottom: 30px;
+}
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+figcaption {
+  font-size: .75rem;
+  padding-top: 10px;
+}
+
+.i {
+  font-size: 4rem;
+}
+
+/*-- CAROUSEL --*/
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000
+}
+
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
 }

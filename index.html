@@ -7,13 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/styles.css">
+
+
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 
   <script defer src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script defer src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script defer src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
 
 
   <title>Steven Vallarsa: Full Stack Software Developer By Day, and Definitely Not Batman by Night</title>
@@ -58,16 +63,277 @@
     </div>
   </header>
 
-  <nav class="navbar navbar-expand-sm navbar-dark">
+  <!-- NAVBAR -->
+  <!-- <nav class="navbar navbar-expand sticky-top">
     <ul class="navbar-nav offset-1">
-      <li class="nav-item active"><a class="nav-link" href="#">Yesteryear</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Yesterday</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Today</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Tomorrow</a></li>
+      <li class="nav-item active"><a class="nav-link text-white" href="#">Beginnings<br /><i
+            class="fa fa-fast-backward"></i></a>
+      </li>
+      <li class="nav-item"><a class="nav-link c-pet-green" href="#">Yesterday<br /><i
+            class="fa fa-step-backward"></i></a></li>
+      <li class="nav-item text-center"><a class="nav-link c-pet-green" href="#">Today<br /><i
+            class="fa fa-pause"></i></a></li>
+      <li class="nav-item text-right"><a class="nav-link c-pet-green" href="#">Tomorrow<br /><i
+            class="fa fa-step-forward"></i></a>
+      </li>
     </ul>
+  </nav> -->
+
+  <!-- NAVBAR -->
+  <nav style="background-image: linear-gradient(to right, #020, #000);"
+    class="navbar navbar-expand-sm bg-primary sticky-top">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand c-pet-green"><i class="fa fa-user-circle"></i></a>
+      <button class="navbar-toggler c-pet-green" type="button" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon "><i class="fa fa-bars" style="font-size:28px;"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link c-pet-green pr-2"><i class="fa fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link c-pet-green pr-2"><i class="fa fa-file"></i> Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link c-pet-green pr-2"><i class="fa fa-file-code"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link c-pet-green"><i class="fa fa-info-circle"></i> Etc</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
+  <!--- One Column -->
+  <div class="container-fluid">
+    <div class="row welcome text-center padding-bottom">
+      <div class="col pt-4">
+        <h1 class="display-4">
+          Ready For Work
+        </h1>
+        <hr />
+        <div class="col">
+          <p class="lead">
 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--- Two Column Section -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Who I am...</h2>
+        <p>Vinyl roof party chambray bicycle rights XOXO mustache austin cornhole edison bulb. Hoodie banh mi etsy
+          vexillologist
+          af. Prism kitsch unicorn flannel, chambray humblebrag shoreditch small batch pork belly vinyl. Tumeric
+          gastropub pabst
+          raclette, beard thundercats hot chicken sriracha tofu freegan intelligentsia echo park coloring book. Meh
+          raclette
+          flexitarian, master cleanse lomo brunch pork belly paleo retro coloring book cronut roof party woke.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="/img/personal/steve_graphic_designer.JPG" class="img-fluid rounded"
+          alt="Steve at desk in front of old PowerMac G4" style="  box-shadow: 5px 5px 5px;">
+        <figcaption>My graphic design days in front of a "huge" 16" monitor. June 2000</figcaption>
+      </div>
+    </div>
+  </div>
+  <hr class="my-4">
+
+  <!--- One Column -->
+  <div class="container-fluid">
+    <div class="row welcome text-center padding-bottom">
+      <div class="col pt-4">
+        <h1 class="display-4">
+          The Tech I'm Learning
+        </h1>
+        <hr />
+        <div class="col">
+          <p class="lead">
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--- Three Column Section -->
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <i class="fa fa-code fa-4x text-primary"></i>
+        <h3 class="margin-bottom">HTML 5</h3>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <i class="fab fa-css3 fa-4x text-warning"></i>
+        <h3>CSS 3</h3>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <i class="fab fa-js fa-4x text-success"></i>
+        <h3>JavaScript</h3>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <i class="fa fa-bold fa-4x"></i>
+        <h3>Bootstrap</h3>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <i class="fa fa-rss fa-4x"></i>
+        <h3>jQuery</h3>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <i class="fab fa-github-alt fa-4x"></i>
+        <h3>Git</h3>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <h1>C#</h1>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <h1>.NET</h1>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <h1>SQL</h1>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <h1>NodeJS</h1>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <h1>MongoDB</h1>
+        <p></p>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 margin-bottom">
+        <h1>ExpressJS</h1>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <hr class="my-4" />
+  </div>
+
+  <!--- Fixed background -->
+  <figure>
+    <div class="fixed-wrap">
+      <div id="fixed">
+
+      </div>
+    </div>
+  </figure>
+
+  <!--- Emoji Section -->
+  <button class="fun" data-toggle="collapse" data-target="#unicorn">
+    Who am I?
+  </button>
+  <div id="unicorn" class="collapse">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col">
+          <img src="img/gif/unicorn.gif" alt="animated unicorn gif" class="gif">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- MODAL -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 offset-1 b head">Where to begin...</div>
+      <div class="col b body">I have a lovely</div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button class="navbar-toggler">
+          <span class="fa fa-navicon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col offset-1">
+        <form class="reg-text">
+          <div class="form-group row">
+            <label for="name" class="col-md-2 col-form-label">Name</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="company" class="col-md-2 col-form-label">Company</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="company" name="company"
+                placeholder="Company (if applicable)" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+            <div class="col-5 col-md-3">
+              <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+            </div>
+            <div class="col-7">
+              <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="email" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col offset-md-2">
+              May we contact you?
+              <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                <label for="contactYes" class="form-check-label">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                <label for="contactNo" class="form-check-label">No</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+            <div class="col-md-10">
+              <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="offset-md-2 col-md-10">
+              <button type="submit">Send Feedback</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <h1>This</h1>
+  <h1>This</h1>
+
+
+  <!-- BOTTOM NAVBAR -->
+  <footer>
+    <nav class="navbar navbar-expand">
+      <ul class="navbar-nav offset-1">
+        <li class="nav-item navbar-brand c-pet-green d-flex align-items-center">Please Drop In And Say Hello: </li>
+        <li class="nav-item active"><a class="nav-link c-pet-green" href="https://www.linkedin.com/in/stevenvallarsa"
+            target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        </li>
+
+        <li class="nav-item"><a class="nav-link c-pet-green" href="https://www.github.com/stevenvallarsa"
+            target="_blank"><i class="fab fa-github-alt fa-2x"></i></a>
+        </li>
+        <li class="nav-item"><a class="nav-link c-pet-green" href="#"><i class="fa fa-envelope fa-2x"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+  </footer>
 
 </body>
 
