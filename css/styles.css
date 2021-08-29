@@ -1,6 +1,7 @@
-body {
-  /* font-family: 'Oswald', sans-serif; */
+body, html {
+  height: 100%;
 }
+
 
 .jumbotron {
   background-image: linear-gradient(to right, #020, #000);
@@ -33,15 +34,12 @@ body {
 
 @media (max-width: 600px) {
   header h5 {
-    font-size: 0.65rem;
+    font-size: 0.85rem;
   }
   header h3 {
-    font-size: 1rem;
+    font-size: 20px;
   }
 
-  .nav-link, .nav-item {
-    font-size: 0.75rem;
-  }
 
 }
 
@@ -94,9 +92,6 @@ figcaption {
   padding-top: 10px;
 }
 
-.i {
-  font-size: 4rem;
-}
 
 /*-- CAROUSEL --*/
 .carousel-inner img {
@@ -159,4 +154,15 @@ figure {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
+}
+
+.parallax { 
+  background-image: url("img/mac.png");
+
+  min-height: 200px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
