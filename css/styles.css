@@ -1,7 +1,10 @@
 body, html {
-  height: 100%;
+  font: Lato, Helvetica, Arial, sans-serif;
 }
 
+p, h1, h2, ol {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
 
 .jumbotron {
   background-image: linear-gradient(to right, #020, #000);
@@ -22,29 +25,8 @@ body, html {
   color: #0f0;
 }
 
-.head {
-    font-family: 'Press Start 2P', monospace;
-
-}
-
-.reg-text {
-    font-family: 'Helvetica', 'Arial', sans-serif;
-
-}
-
-@media (max-width: 600px) {
-  header h5 {
-    font-size: 0.85rem;
-  }
-  header h3 {
-    font-size: 20px;
-  }
-
-
-}
-
-.active {
-  color: white;
+.card {
+  width: 200px;
 }
 
 
@@ -71,7 +53,7 @@ li.active {
   color: #0f0;
 }
 
-.navbar {
+.navbar, .bottom-navbar {
   background-image: linear-gradient(to right, #020, #000);
 }
 
@@ -90,6 +72,16 @@ li.active {
 figcaption {
   font-size: .75rem;
   padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px gray;
+}
+
+.img-shadow {
+  box-shadow: 5px 5px 5px;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px black;
 }
 
 
@@ -101,7 +93,7 @@ figcaption {
 
 .carousel-caption {
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
 }
 
@@ -165,4 +157,19 @@ figure {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+@media (max-width: 650px) {
+  header h5 {
+    font-size: 0.85rem;
+  }
+  header h3 {
+    font-size: 20px;
+  }
+
+
+
+
+  
 }
