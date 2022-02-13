@@ -6,18 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- build:css css/main.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/styles.css">
+  <!-- endbuild -->
 
 
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
 
+  <!-- build:js js/main.js -->
   <script defer src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script defer src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script defer src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- endbuild -->
+
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
   <title>Steven Vallarsa: Full Stack Software Developer - My long and twisted road from there to here</title>
@@ -29,8 +33,8 @@
   <div class="container-fluid">
     <div class="row">
       <div class="offset-1">
-        <h5>**** STEVEN VALLARSA ****</h5>
-        <h5>&nbsp; 3071 BYTES FREE</h5>
+        <h5>**** STEVEN VALLARSA 4.0 ****</h5>
+        <h5>&nbsp; 15359 BYTES FREE</h5>
         <h5>READY...</h5>
         <h5>&nbsp;</h5>
         <h3 class="work">&nbsp; ...FOR WORK</h3>
@@ -62,16 +66,6 @@
         <li class="nav-item active">
           <a href="#" class="nav-link c-pet-green"><i class="fa fa-info-circle"></i> Etc</a>
         </li>
-        <li class="nav-item">
-          <a href="#past" class="btn btn-danger btn-sm">Yesterday</a>
-        </li>
-        <li class="nav-item">
-          <a href="#present" class="btn btn-warning btn-sm">Today</a>
-        </li>
-        <li class="nav-item">
-          <a href="#future" class="btn btn-success btn-sm">Tomorrow</a>
-
-        </li>
       </ul>
 
     </div>
@@ -79,12 +73,28 @@
 </nav>
 
 <!-- MAIN COLUMN -->
-<div class="container-fluid welcome">
-  <div class="row text-center padding-bottom">
-    <div class="col pt-4">
-      <h1 id="past" class="display-4">
-        Ready For Work
-      </h1>
+<div class="container-fluid set-margin-75">
+  <!-- CAROUSEL -->
+  <div id="carousel" class="carousel slide my-5" data-ride="carousel" data-interval="2000" data-pause="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/water-sunset-1802851_1280x750.jpg" alt="Northern Ontario sunset">
+        <div class="carousel-caption">
+          <h1 class="display-4">READY</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/niagara-falls-lit-3750836_1280x750.jpg" alt="Niagara Falls at night">
+        <div class="carousel-caption">
+          <h1 class="display-3">FOR</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/toronto-skyline-twilight-2297210_1280x750.jpg" alt="Toronto evening skyline">
+        <div class="carousel-caption">
+          <h1 class="display-1">WORK!</h1>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -150,7 +160,7 @@
     </div>
   </div>
   <!-- PRESENT -->
-  <div class="row" id="present">
+  <div class="row">
     <div class="col text-center mt-3">
       <h1 class="display-4 bg-primary text-white p-1 text-shadow">
         Where am I now?
@@ -183,10 +193,10 @@
         real
         electronic mail via a BBS I belonged to in 1994, I got my first "real" email address
         (steve@feldspar.com) from an ISP in August 1995. It went out of business a year later in those early years as
-        everyone who was anyone was trying to figure out how to make money off the information gravel road. But had I
+        everyone was trying to figure out how to make money as the onramp to the information gravel road. But had I
         known the career I could have made of it back then, I would have dived head first into web design. I did dabble
         a little bit, writing my first web page in SimpleText from the example given in a 1995 MacWorld magazine
-        article. <span id="future"></span> Then I created a personal website using a Mac-only semi-WYSIWYG HTML editor
+        article. Then I created a personal website using a Mac-only semi-WYSIWYG HTML editor
         called Pagespinner.
         From there I worked with Adobe GoLive, then Macromedia Dreamweaver creating a few static websites along the way.
       </p>

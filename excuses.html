@@ -15,15 +15,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
 
+
   <!-- build:js js/main.js -->
   <script defer src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script defer src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script defer src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script defer src="js/excuses.js"></script>
   <!-- endbuild -->
 
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-  <title>Steven Vallarsa: Full Stack Software Developer - My long and twisted road from there to here</title>
+
+
+  <title>Steven Vallarsa: Full Stack Software Developer By Day, and Definitely Not Batman by Night</title>
 
   <style>
     .b {
@@ -37,7 +41,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="offset-1">
-        <h5>**** STEVEN VALLARSA ****</h5>
+        <h5>**** STEVEN VALLARSA 4.0 ****</h5>
         <h5>&nbsp; 15359 BYTES FREE</h5>
         <h5>READY...</h5>
         <h5>&nbsp;</h5>
@@ -48,8 +52,7 @@
 </header>
 
 <!-- NAVBAR -->
-<nav style="background-image: linear-gradient(to right, #020, #000);"
-  class="navbar navbar-expand-sm bg-primary sticky-top">
+<nav class="navbar navbar-expand-sm bg-primary sticky-top">
   <div class="container-fluid">
     <a href="index.html" class="navbar-brand c-pet-green"><i class="fa fa-user-circle"></i></a>
     <button class="navbar-toggler c-pet-green" type="button" data-toggle="collapse" data-target="#navbar">
@@ -59,17 +62,13 @@
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a href="https://stevenvallarsa.netlify.app" class="nav-link text-danger">MY NEW REACT PORTFOLIO</a>
+          <a href="#" class="nav-link c-pet-green pr-2"><i class="fa fa-home"></i> Home</a>
         </li>
         <li class="nav-item">
-          <a href="index.html" class="nav-link c-pet-green pr-2"><i class="fa fa-home"></i> Home</a>
+          <a href="resume.html" class="nav-link c-pet-green pr-2"><i class="fa fa-file"></i> Resume</a>
         </li>
         <li class="nav-item">
-          <a href="/misc/Resume_Steven_Vallarsa_21_09.pdf" class="nav-link c-pet-green pr-2" target="_blank"><i
-              class="fa fa-file"></i> Resume</a>
-        </li>
-        <li class="nav-item active">
-          <a href="#" class="nav-link c-pet-green pr-2"><i class="fa fa-file-code"></i> Projects</a>
+          <a href="projects.html" class="nav-link c-pet-green pr-2"><i class="fa fa-file-code"></i> Projects</a>
         </li>
         <li class="nav-item">
           <a href="etc.html" class="nav-link c-pet-green"><i class="fa fa-info-circle"></i> Etc</a>
@@ -81,66 +80,20 @@
 
 <!-- MAIN COLUMN -->
 <div class="container-fluid set-margin-75">
-  <div class="row text-center">
+  <div class="row text-center pb-3">
     <div class="col pt-4">
-      <h1 class="display-4 pb-3">
-        Ready For Work
+      <h1 id="past" class="display-4">
+        What's Your Excuse?
       </h1>
-    </div>
-  </div>
-  <div class="row text-center">
-    <div class="col mb-3">
-      <h1 class="bg-primary text-white p-1 text-shadow">Nucamp Project...</h1>
-    </div>
-  </div>
-  <div class="row mb-5">
-    <div class="col pb-3">
-      <div class="card mx-auto">
-        <a href="/misc/nucampsite/index.html" target="_blank"><img src="misc/nucampsite.jpg" alt="Farview Farms Website"
-            class="card-img-top"></a>
-        <div class="card-body text-center">
-          <h5 class="card-title">Nucamp Bootstrap Project</h5>
-          <p class="card-text">Website using Boostrap</p>
-          <a href="/misc/farview_farms/index.html" class="btn btn-primary">Nucamp</a>
-        </div>
-      </div>
-    </div>
-    <hr class="my-4" />
-  </div>
-  <div class="row text-center">
-    <div class="col mb-3">
-      <h1 class="bg-primary text-white p-1 text-shadow">Some static websites I created a long
-        time ago
-        in a galaxy far, far away...
-      </h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6 offset-lg-2 col-lg-4 pb-3">
-      <div class="card mx-auto">
-        <a href="/misc/farview_farms/index.html" target="_blank"><img src="misc/farview_farms_preview.jpg"
-            alt="Farview Farms Website" class="card-img-top"></a>
-        <div class="card-body text-center">
-          <h5 class="card-title">Farview Farms</h5>
-          <p class="card-text">Static hobby farm website</p>
-          <a href="/misc/farview_farms/index.html" class="btn btn-primary">Farview Farms</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-lg-4 pb-3">
-      <div class="card mx-auto">
-        <a href="/misc/billie_clark/index.html" target="_blank"><img src="misc/billie_clark_preview.jpg"
-            alt="Billie Clark Art Website" class="card-img-top"></a>
-        <div class="card-body text-center">
-          <h5 class="card-title">Billie Clark Art</h5>
-          <p class="card-text">Static artist website</p>
-          <a href="/misc/farview_farms/index.html" class="btn btn-primary">Billie Clark Art</a>
-        </div>
-      </div>
+      <h2 class="p-5 c-pet-green mb-3" style=" font-weight: bold;   background-image: linear-gradient(to right, #020, #000);
+" id="excuse"></h2>
+      <button class="btn btn-success m-1" id="make-copy">Brilliant! Gimme a copy.</button>
+      <button class="btn btn-primary m-1" id="new-excuse">That excuse stinks! Try again.</button>
+      <h5 id="copied" style="display: none" class="text-success">The excuse... I mean REASON... has been copied to the
+        clipboard!</h5>
     </div>
   </div>
 </div>
-
 
 
 <!-- BOTTOM NAVBAR -->
